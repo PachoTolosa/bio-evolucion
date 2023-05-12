@@ -3,12 +3,11 @@ import logoBE from "./assets/logoSinFondo.png"
 
 function SeccionSuperior() {
   return (
-    <div className="SeccionSuperior">
-        <label>
-            <img src={logoBE} alt="Logo-de-bio-evolucion" />
-            <p>Vive!</p>
-        </label>
-    </div>
+    <header className="SeccionSuperior">
+        <img src={logoBE} alt="Logo-de-bio-evolucion" />
+        <b>Vive!</b>
+        <button className='boton-menu'>+</button>
+    </header>
   );
 }
 

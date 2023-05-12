@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+
 .SeccionSuperior{
-    background-color: #000000;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width:400px;
 }
 
 .h1SeccionSuperior{
@@ -7,6 +15,39 @@
     ;
 }
 
-img{
-    size: 100px 100px;
+.SeccionSuperior img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.SeccionSuperior b{
+    margin: 10px 10px 3px 10px;
+}
+
+.SeccionSuperior button{
+
+    background-color: #ff3d00;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    /* position: fixed; */
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    
+    transform: rotate(0);
+    transition: .3s ease;
+    }
+    
+    .CreateTodoButton:hover {
+    transform: rotate(224deg);
 }
