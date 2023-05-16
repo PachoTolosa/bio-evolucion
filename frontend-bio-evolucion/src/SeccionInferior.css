@@ -1,0 +1,13 @@
+.seccion-inferior{
+    height: 200px;
+    width: end;
+    background: linear-gradient(45deg, #808080, #000000);;;
+}
+
+.seccion-inferior-interna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-size: 15px;
+}

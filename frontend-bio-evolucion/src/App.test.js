@@ -1,3 +1,6 @@
+// No sé por que está esto acá pero no funciona sin esto jeje
+// Just ignore it
+
 import { render, screen } from '@testing-library/react';
 import App from './App';
 

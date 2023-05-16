@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
 
 .SeccionSuperior{
-    background: linear-gradient(45deg, #808080, #000000);;
+    background: linear-gradient(45deg, #808080, #000000);
     display: flex; 
     flex-wrap: wrap;
     flex-direction: row;
@@ -24,6 +24,7 @@
 
 .SeccionSuperior b{
     margin: 10px 10px 3px 10px;
+    color: #ffffff;
 }
 
 .SeccionSuperior button{
@@ -32,7 +33,7 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 50px;
+    font-size: 40px;
     position:inherit ;
     bottom: 24px;
     right: 24px;
@@ -41,8 +42,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 64px;
-    width: 64px;
+    height: 50px;
+    width: 50px;
     transform: rotate(0);
     transition: .3s ease;
     margin: 10px;
@@ -54,6 +55,7 @@
 
 #leyenda{
     font-size: 10px;
+    color:#ffffff; 
 }
 
 #seccion-derecha{
@@ -66,4 +68,10 @@
     border-radius: 7px;
     width: 150px;
     height: 20px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }

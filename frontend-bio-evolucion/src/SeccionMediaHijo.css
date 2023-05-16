@@ -1,0 +1,68 @@
+
+.button-lista-media{
+    font-size: 30px;
+}
+
+#button-lista-media-Asesorias{
+color: white;
+size: auto;
+height: 40px;
+background-image: url('./assets/ULTRA.22.DIA.01_0032.jpg');
+background-size: cover;
+background-position: center;
+width: 400px;
+height: 200px;
+}
+
+#button-lista-media-Market{
+    color: white;
+    size: auto;
+    height: 40px;
+    background-image: url('./assets/ULTRA.22.DIA.01_0262.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 200px;
+}
+
+#button-lista-media-Cursos{
+    color: white;
+    size: auto;
+    height: 40px;
+    background-image: url('./assets/ULTRA.22.DIA.01_0475.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 200px;
+}
+
+#button-lista-media-Blog{
+    color: white;
+    size: auto;
+    height: 40px;
+    background-image: url('./assets/ULTRA.22.DIA.01_0817.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 200px;
+}
+
+#button-lista-media-Asesorias:hover{
+    color: black;
+    background-color: white;
+}
+
+#button-lista-media-Market:hover{
+    color: black;
+    background-color: white;
+}
+
+#button-lista-media-Cursos:hover{
+    color: black;
+    background-color: white;
+}
+
+#button-lista-media-Blog:hover{
+    color: black;
+    background-color: white;
+}

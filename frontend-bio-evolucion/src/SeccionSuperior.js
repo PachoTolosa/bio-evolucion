@@ -1,11 +1,16 @@
 import './SeccionSuperior.css';
 import logoBE from "./assets/logoSinFondo.png"
+import React from "react";
 
-function SeccionSuperior() {
+const holi=["","esto", "esto lo", "esto lo hago", "esto lo hago pa'", "esto lo lago pa divertirme"]
+let n=0
+function SeccionSuperior({ searchValue, setSearchValue }) {
+
   return (
     <header className="SeccionSuperior">
-        <div>
-        <   img src={logoBE} alt="Logo-de-bio-evolucion" />
+        <div className='logo'>
+        <   img src={logoBE} alt="Logo-de-bio-evolucion" onClick={
+              () => console.log("Holalola")}/>
         <b>Vive!</b>
         </div>
         <b id='leyenda'>By: Frank & Meli</b>
@@ -13,8 +18,12 @@ function SeccionSuperior() {
             <input
             placeholder="Buscar productos"
             className="buscador"
+            value={searchValue}
+            onChange={(event) => setSearchValue(event.target.value)}
             />
-            <button className='boton-menu'>+</button>
+            <button className='boton-menu' onClick={() => {
+              setSearchValue(holi[n]);n++;if (n === holi.length) {n = 0;}}}>+</button>
+
         </div>
     </header>
   );
